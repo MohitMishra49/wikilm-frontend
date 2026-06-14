@@ -1,7 +1,7 @@
 import type { GenerationRequest, GenerationResponse } from '../types'
 
 // Point this at your FastAPI server. In dev, Vite proxies /api → localhost:8000
-const API_BASE = import.meta.env.VITE_API_URL ?? '/api'
+const API_BASE = "https://mohitmishra4905-wikilm-api.hf.space";
 
 class ApiError extends Error {
   constructor(
